@@ -18,21 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: jayne's hacker blog
+title: "jayne's hacker blog"
 email: jayne@dystopian.earth
 description: >- # this means to ignore newlines until "baseurl:"
   Notes from the void
-  #baseurl: "/blag" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gloomleaf.blog" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  glo0ml3af
+  #twitter_username: jekyllrb
+github_username:  glo0ml34f
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: minima
+#remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-remote-theme
-#remote_theme: mmistakes/minimal-mistakes
+#- jekyll-remote-theme
+- jekyll-feed
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
